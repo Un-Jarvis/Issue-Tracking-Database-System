@@ -1,0 +1,181 @@
+body {
+    background-color: white;
+    color: #8a8a8a;
+    font-family: Arial;
+    margin: 0px;
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.active {
+    font-weight: bold; 
+}
+
+.title {
+    text-align: center;
+    margin: 50px 0px 30px;
+}
+
+.boxShadow {
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25); 
+}
+
+.header {
+    background-color: inherit;
+    position: fixed;
+    top: 0px;
+    margin: 0px auto;
+    width: 100%;
+    height: 55.65px;
+    font-size: 20px;
+    z-index: 5;
+}
+
+.header + .yield {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0px auto 120px;
+}
+
+.left {
+    float: left;
+    margin-left: 16.5px;
+}
+.right {
+    float: right;
+    margin-right: 16.5px;
+}
+
+a {
+    text-decoration: underline;
+    color: #8a8a8a;
+}
+a:hover {
+    text-decoration: none;
+    color: #696969;
+}
+
+nav.topBar {
+    overflow: hidden;
+    font-size: 18px;
+}
+
+nav.topBar a, nav.topBar p {
+    float: left;
+    font-size: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: #8a8a8a;
+    padding: 16.5px;
+    margin: 0px;
+}
+nav.topBar a {
+    text-transform: uppercase;
+}
+nav.topBar a:hover {
+    box-sizing: border-box;
+    border-bottom: 2.5px solid;
+    border-color: #696969;
+    color: #696969;
+    transition: all ease-in-out 250ms;
+}
+
+form {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+form.info {
+    width: 500px;
+}
+
+form.button {
+    display: inline-block;
+    width: 250px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+table.content, table.create {
+    width: 100%;
+}
+
+tr, th, td, caption {
+    text-align: center;
+    padding: 10px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+caption {
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+table.content th, table.content td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+div.buttonBar {
+    text-align: center;
+    margin: 0px auto;
+}
+
+div#insert {
+    text-align: center;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+
+input, select {
+    width: 100%;
+    height: 30px;
+}
+
+input.button {
+    color: white;
+    width: 120px;
+    height: 35px;
+    background-color: #fed136;
+    border-color: #fed136;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 1px 10px;
+    margin: 10px 10px 20px;
+}
+input.button:hover {
+    color: #696969;
+}
+
+input.create {
+    margin: 0px auto;
+}
+
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
